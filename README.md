@@ -21,35 +21,6 @@ MechanicShop is a workshop management platform that helps auto repair shops hand
 
 ---
 
-## Architecture
-
-The solution follows **Clean Architecture** with a strict inward dependency rule:
-
-┌──────────────────────────────────────────┐
-│ API Layer │
-│ Controllers · Minimal APIs · OpenAPI │
-├──────────────────────────────────────────┤
-│ Infrastructure Layer │
-│ EF Core · Identity · SignalR · Services │
-├──────────────────────────────────────────┤
-│ Application Layer │
-│ CQRS (MediatR) · Commands · Queries │
-│ FluentValidation · Pipeline Behaviors │
-├──────────────────────────────────────────┤
-│ Domain Layer │
-│ Entities · Domain Events · Result │
-├──────────────────────────────────────────┤
-│ Contracts Layer │
-│ Shared DTOs & Interfaces │
-└──────────────────────────────────────────┘
-↑ consumed by ↑
-┌──────────────────────────────────────────┐
-│ Client Layer │
-│ Blazor WebAssembly UI │
-└──────────────────────────────────────────┘
-
----
-
 ## 🚀 Tech Stack
 
 - **Backend:** ASP.NET Core Web API
