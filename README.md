@@ -4,7 +4,7 @@ A full-stack, production-ready ASP.NET Core application for managing an auto rep
 
 ## Overview
 
-MechanicShop is a workshop management platform that helps auto repair shops handle their day-to-day operations — from customer intake and scheduling to repair tracking, work orders, and invoicing. The system exposes a REST API consumed by a Blazor WebAssembly frontend, with real-time updates powered by SignalR.
+MechanicShop is a workshop management platform that helps auto repair shops handle their day-to-day operations from customer intake and scheduling to repair tracking, work orders, and invoicing. The system exposes a REST API consumed by a Blazor WebAssembly frontend, with real-time updates powered by SignalR.
 
 ---
 
